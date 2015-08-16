@@ -1,0 +1,15 @@
+[10:59:06 --4:00] [Thread 2293619776] extDB: Version: 35
+[10:59:06 --4:00] [Thread 2293619776] extDB: Windows Version
+[10:59:06 --4:00] [Thread 2293619776] Message: Arma Linux Servers are using Older Physic Library (than Windows Servers), due to Debian 7 using old version of Glibc
+[10:59:06 --4:00] [Thread 2293619776] Message: If you like extDB consider donating or bug BIS to drop support for Debian 7 thanks, so Linux Servers get same Physic Library Version as Windows
+[10:59:06 --4:00] [Thread 2293619776] Message: Note currently most/all development for extDB is done on a Linux Server
+[10:59:06 --4:00] [Thread 2293619776] Message: Torndeco: 24/01/15
+[10:59:06 --4:00] [Thread 2293619776] 
+[10:59:06 --4:00] [Thread 2293619776] extDB: Found extdb-conf.ini
+[10:59:06 --4:00] [Thread 2293619776] extDB: Detected 8 Cores, Setting up 6 Worker Threads
+[10:59:06 --4:00] [Thread 2293619776] extDB: Database Type: MySQL
+[10:59:06 --4:00] [Thread 2293619776] extDB: Database Session Pool Started
+[10:59:06 --4:00] [Thread 2293619776] extDB: DB_CUSTOM_V5: Loading Template Filename: C:\Program Files (x86)\Steam\steamapps\common\Arma 3\@extDB\extDB\db_custom\altis-life-rpg-4.ini
+[10:59:06 --4:00] [Thread 954333010] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: The user specified as a definer ('arma3'@'localhost') does not exist	[mysql_stmt_errno]: 1449	[mysql_stmt_sqlstate]: HY000	[statemnt]: CALL resetLifeVehicles;
+[10:59:06 --4:00] [Thread 954333010] extDB: DB_CUSTOM_V5: Error Exception: SQL: resetLifeVehicles
+[22:58:17 --4:00] [Thread 2293619776] extDB: Stopping ...
