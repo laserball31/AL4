@@ -434,15 +434,16 @@ player createDiarySubject ["controls","Controls"];
 				Police Chain of Command:<br/>
 				1. Chief<br/>
 				2. Deputy Chief<br/>
-				3. Superintendent<br/>
+				3. Colonel<br/>
 				4. Captain<br/>
 				5. Lieutenant<br/>
 				6. Sergeant<br/>
-				7. Senior Patrol Officer<br/>
+				7. Detective<br/>
 				8. Patrol Officer<br/>
-				9. Cadet<br/><br/>
+				9. Police Corporal<br/>
+				10. Cadet<br/><br/>
 
-				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
+				Cops in game who are not enrolled/accepted into the APD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
