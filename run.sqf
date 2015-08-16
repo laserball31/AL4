@@ -54,14 +54,14 @@
 	_MOD can be 'Epoch', 'AltisLife', 'KOTH', 'WASTELAND' or 'Other'.
 	Epoch and AltisLife should be resolved automatically
 */
-_MOD = 'Epoch';
+_MOD = 'AltisLife';
 
 
 /* "_OPEN_ADMIN_MENU_KEY": Key to open the menu (google DIK_KeyCodes (0x3B is F1))   */
 _OPEN_ADMIN_MENU_KEY = 0x3B;
 /* What ESCAPE Menu shows */
-_ESCMNUTOP = 'AntiHack & AdminTools';
-_ESCMNUBOT = 'by infiSTAR.de';
+_ESCMNUTOP = 'Anti-Hack Enabled';
+_ESCMNUBOT = 'TheWeaponShop.ca';
 _BRIEFING_MSG = false;	/* use mission briefing message: if   "_BRIEFING_MSG = false;"   then the message will be replaced by infiSTAR */
 
 
@@ -106,7 +106,7 @@ _announce_adminstate_changed = false;	/* true or false */
 _passwordAdmin = 'EnterAdminPasswordFromYourConfigHere';
 _adminLevel1_UIDs =
 [
-	'0','0','0'
+	'76561198079908879','76561198082727540','0' /* Popolaman (76561198079908879), Kronyx (76561198082727540) */
 ];
 _adminLevel1 =
 [
@@ -185,7 +185,7 @@ _adminLevel3 =
 /*  Items Added Check    */ _IAC = true;	/* true or false */	/* checks if Items are being added unrightful! */
 /*  Local Vehicle Check  */ _LVC = true;	/* true or false */
 /*  unitRecoil checks    */ _URC = true;	/* true or false */	/* checks unitRecoilCoefficient and resets default unitRecoilCoefficient */
-/*  Notification check   */ _UNC = true;	/* true or false */	/* _UNC = false; on AltisLife! - showNotification check */
+/*  Notification check   */ _UNC = false;	/* true or false */	/* _UNC = false; on AltisLife! - showNotification check */
 /*  Use MPInterrupt check*/ _UMP = false;	/* true or false */
 /*  Check GearMenu CTRLs */ _GCC = false;	/* true or false */	/* will announce: BadControls count on D602 - if the gear menu has an increased or lower control count (Epoch = 87, AltisLife = 82) */
 /*  Check CTRLs on D12   */ _C12 = false;	/* true or false */	/* will announce: BadControls count on IDD 12 or BadControl and a number */
@@ -201,18 +201,18 @@ _adminLevel3 =
 /*  Remove Actions Plr   */ _OAP = true;	/* true or false */	/* Remove ALL Actions on Player Object: (mousewheel actions) needs to be  false  for AltisLife for e.g. gathering */
 /*  Remove Actions Objs  */ _OAO = true;	/* true or false */	/* Remove ALL Actions on Objects near Player: (mousewheel actions) needs to be  false  when using e.g. IgiLoad */
 /*  Check Attached Objs  */ _CAO = true;	/* true or false */	/* needs to be  false  when using e.g. IgiLoad */
-/*  Use Anti Teleport    */ _UAT = true;	/* true or false */	/* might need to be set to false on other mods than Epoch! */
+/*  Use Anti Teleport    */ _UAT = false;	/* true or false */	/* might need to be set to false on other mods than Epoch! */
 /*  Chat-Vote Day/Night  */ _VDN = true;	/* true or false */
 /*  Check Vision Mode    */ _CVM = true;	/* true or false */
 /*  check view distance  */ _CVD = false;	/* true or false */	/* if the viewdistance is not 1600 - ban. */
-/*  check cameraOn       */ _CCO = true;	/* true or false */	/* needs to be false for UAV drones and such things.. */
-/*  Revert onEachFrame   */ _REF = true;	/* true or false */	/* AltisLife uses this for PlayerTags - so it should be   _REF = false;   on AltisLife */
+/*  check cameraOn       */ _CCO = false;	/* true or false */	/* needs to be false for UAV drones and such things.. */
+/*  Revert onEachFrame   */ _REF = false;	/* true or false */	/* AltisLife uses this for PlayerTags - so it should be   _REF = false;   on AltisLife */
 /*  Map Icon Check       */ _MIC = true;	/* true or false */	/* Needs to be  false  on some WasteLand versions */
 /*  Remove All Mines     */ _RAM = false;	/* true or false */
 /*  Remove All UAVs      */ _RUS = false;	/* true or false */
 /*  onEachFrame function */ _rOEF = {};	/* this needs to be CODE */
 /*  custom HandleDamage  */ _CHD = {};		/* this needs to be CODE */
-/*  Revert allowDamage   */ _RAD = true;	/* true or false */	/* if you have safezones using "player allowDamage false;" or similar.. set _RAD = false; */
+/*  Revert allowDamage   */ _RAD = false;	/* true or false */	/* if you have safezones using "player allowDamage false;" or similar.. set _RAD = false; */
 /*  Revert HandleDamage  */ _RHD = false;	/* true or false */	/* Needs to be  false  for Paintball script */
 /*  EH_Draw3D check      */ _C3D = false;	/* true or false */	/* announces: "EH_Draw3D x should be y" */
 /*  MouseMoving EH check */ _MOH = false;	/* true or false */	/* announces: "MouseMoving EventHandler added" - needs to be disabled for UAV scripts and such.. */
@@ -280,8 +280,8 @@ _cMenu =
 ];
 
 
-/*  Check Global Markers */ _CGM = true;	/* true or false */	/* you may need to disable this check for A.I. Missions - or whitelist the used Markers in the _aLocalM Array beneath */
-/*  Check Local Markers  */ _CLM = true;	/* true or false */	/* false if you do not want LocalMarker to be checked. */
+/*  Check Global Markers */ _CGM = false;	/* true or false */	/* you may need to disable this check for A.I. Missions - or whitelist the used Markers in the _aLocalM Array beneath */
+/*  Check Local Markers  */ _CLM = false;	/* true or false */	/* false if you do not want LocalMarker to be checked. */
 /*  Use _aLocalM array   */ _UMW = false;	/* true or false */	/* use allowed marker array from below (for example AltisLife uses house_ and others in there) or A.I. Missions */
 /* _aLocalM: if '_CLM' && _UMW - this array of names will be allowed */
 _aLocalM =
