@@ -8,6 +8,7 @@ To-Do List
 - Edit the item prices for sale and buy to fit the economy, drugs and otherwise
 - Add BEC restarter, and add firewall to block access to ibattle.org
 - Create a new mysql user for the server to connect with
+- Edit the mission briefing to include rules, laws, and other information
 
 Completed
 - Upload Default AL4.0 Files from Itsyukas Repository (done)
