@@ -15,3 +15,4 @@ Completed
 - Upload Infistar (done)
 - Edit in the steam_ids for popolaman and kronyx (done)
 - Add extDB (done)
+- Edit InfiSTAR checks to stop it from banning randoms (done)
