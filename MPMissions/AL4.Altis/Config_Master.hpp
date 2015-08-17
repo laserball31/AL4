@@ -119,6 +119,7 @@ class Life_Settings {
 //Virtual Items
 class VirtualItems {
 	//Misc
+	VITEMMACRO(gagkit, "STR_Item_GagKit", "gagkit", 10, 10000, -1, false, -1, "")
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 750, 350, false, -1, "")
 	VITEMMACRO(fuelEmpty, "STR_Item_FuelE", "fuelEmpty", 2, -1, -1, false, -1, "icons\ico_fuelempty.paa")
 	VITEMMACRO(fuelFull, "STR_Item_FuelF", "fuelFull", 5, 850, 500, false, -1, "icons\ico_fuel.paa")
@@ -231,17 +232,17 @@ class VirtualShops {
 
 	class rebel {
 		name = "STR_Shops_Rebel";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+		items[] = { "gagkit", "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class gang {
 		name = "STR_Shops_Gang";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+		items[] = { "gagkit", "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class wongs {
 		name = "STR_Shops_Wongs";
-		items[] = { "turtle_soup", "turtle_raw" };
+		items[] = { "gagkit", "turtle_soup", "turtle_raw" };
 	};
 
 	class coffee {
@@ -286,7 +287,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "donut", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "gagkit", "donut", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 
 	class cement {

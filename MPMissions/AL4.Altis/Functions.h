@@ -60,6 +60,9 @@ class Life_Client_Core
 	class Actions
 	{
 		file = "core\actions";
+		class gagAction {};
+		class gagged {};
+		class removeGagAction {};
 		class buyLicense {};
 		class healHospital {};
 		class pushVehicle {};
