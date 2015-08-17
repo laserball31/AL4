@@ -54,6 +54,27 @@ class CfgSounds
 		titles[] = {};
 	};
 
+	class medicintro
+	{
+		name = "medicalintro";
+		sound[] = {"\sounds\medicintro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+ 
+	class civintro
+	{
+		name = "civintro";
+		sound[] = {"\sounds\civintro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class copintro
+	{
+		name = "copintro";
+		sound[] = {"\sounds\copintro.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
 	class tazersound
 	{
 		name = "Tazersound";
