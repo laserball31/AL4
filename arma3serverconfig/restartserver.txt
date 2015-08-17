@@ -31,7 +31,7 @@ echo Starting ARMA 3 Server...
 ::RESTARTING THE ARMA 3 SERVER BE SURE TO EDIT THIS TO YOUR SERVER .EXE LOCATION -NOTE ALSO THIS IS WHERE YOU DEFINE WHERE YOU CONFIG.CFG IS
 cd C:\A3
 timeout 3
-start "arma3" /min /high "arma3server.exe" -port=2522 "-config=C:\A3\arma3serverconfig\config.cfg" "-cfg=C:\A3\arma3serverconfig\basic.cfg" "-profiles=C:\A3\arma3serverconfig" -name=arma3serverconfig "-mod=@life_server;" -world=empty -nosplash -noSound -noPause -enableHT -malloc=system 
+start "arma3" /min /high "arma3server.exe" -port=2522 "-config=C:\A3\arma3serverconfig\config.cfg" "-cfg=C:\A3\arma3serverconfig\basic.cfg" "-profiles=C:\A3\arma3serverconfig" -name=arma3serverconfig "-mod=@life_server;@extDB;" -world=empty -nosplash -noSound -noPause -enableHT -malloc=system 
 timeout 6
 echo ARMA 3 Server has started
 
