@@ -106,7 +106,7 @@ _announce_adminstate_changed = false;	/* true or false */
 _passwordAdmin = 'EnterAdminPasswordFromYourConfigHere';
 _adminLevel1_UIDs =
 [
-	'76561198079908879','76561198082727540','0' /* Popolaman (76561198079908879), Kronyx (76561198082727540) */
+	'76561198079908879','76561198082727540','76561198045828460' /* Popolaman (76561198079908879), Kronyx (76561198082727540), SilentMonk (76561198045828460) */
 ];
 _adminLevel1 =
 [
