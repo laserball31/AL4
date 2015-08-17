@@ -75,8 +75,8 @@ class CarShops {
 		vehicles[] = {
 			{ "C_Offroad_01_F", 10000, ""},
 			{ "C_SUV_01_F", 50000, "" },
-			{ "B_MRAP_01_F", 100000, "", { "life_coplevel", 4 } }
-			{ "B_Truck_01_transport_F", 150000, "", { "life_coplevel", 3 } }
+			{ "B_MRAP_01_F", 100000, "", { "life_coplevel", 4 } },
+			{ "B_Truck_01_transport_F", 150000, "", { "life_coplevel", 3 } },
 			{ "I_MRAP_03_F", 70000, "", { "life_coplevel", 4 } }
 		};
 	};
