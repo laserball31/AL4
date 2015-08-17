@@ -131,6 +131,16 @@ switch (_code) do {
 		};
 	};
 	
+	//Shift+P = Faded Sound
+	case 25:
+	{
+		if(_shift) then
+		{
+			[] call life_fnc_fadeSound;
+			_handled = true;
+		};
+	};
+
 	//T Key (Trunk)
 	case 20: {
 		if(!_alt && !_ctrlKey && !life_is_processing) then {

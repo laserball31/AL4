@@ -153,6 +153,7 @@ class Life_Client_Core
 	{
 		file = "core\functions";
 		class calWeightDiff {};
+		class fadeSound {};
 		class fetchCfgDetails {};
 		class handleInv {};
 		class hudSetup {};
