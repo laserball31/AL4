@@ -81,37 +81,35 @@ class WeaponShops {
     };
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Ride-Along Equipment Store";
         side = "cop";
         license = "";
         level = -1;
         msg = "";
         items[] = {
-        	{ "arifle_sdar_F", "Taser Rifle", 20000 },
 			{ "hgun_P07_snds_F", "Stun Pistol", 2000 },
 			{ "hgun_P07_F", "", 7500 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
-			{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
+			{ "HandGrenade_Stone", "Flashbang", 5000 },
+			{ "Binocular", "", 550 },
+			{ "ItemGPS", "", 1000 },
 			{ "ToolKit", "", 250 },
 			{ "muzzle_snds_L", "", 650 },
-			{ "FirstAidKit", "", 150 },
+			{ "FirstAidKit", "", 500 },
 			{ "Medikit", "", 1000 },
 			{ "NVGoggles", "", 2000 },
-			{ "16Rnd_9x21_Mag", "", 50 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 }
+			{ "16Rnd_9x21_Mag", "", 150 },
         };
     };
     class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+        name = "APD Tactical Store";
         side = "cop";
         license = "";
-        level = 2;
-        msg = "You must be a Patrol Officer Rank!";
+        level = 1;
+        msg = "You must be a member of the Police Force!";
         items[] = {
-        	{ "arifle_MX_F", "", 35000 },
-			{ "SMG_02_ACO_F", "", 30000 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
+        	{ "arifle_MX_F", "", 50000 },
+			{ "SMG_02_ACO_F", "", 40000 },
+			{ "HandGrenade_Stone", "Flashbang", 4000 },
 			{ "MineDetector", "", 1000 },
 			{ "acc_flashlight", "", 750 },
 			{ "optic_Holosight", "", 1200 },
@@ -125,7 +123,7 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level = 3;
+        level = 2;
         msg = "You must be a Sergeant Rank!";
         items[] = {
             { "SMG_02_ACO_F", "", 15000 },
