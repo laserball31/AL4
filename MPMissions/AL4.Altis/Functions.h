@@ -122,6 +122,7 @@ class Life_Client_Core
 		class taxRate {};
 		class vehicleAnimate {};
 		class vehicleWeightCfg {};
+		class seizeCfg {};
 	};
 
 	class Player_Menu
@@ -243,6 +244,8 @@ class Life_Client_Core
 	class Cop
 	{
 		file = "core\cop";
+		class seizePlayerWeapon {};
+		class seizePlayerWeaponAction {};
 		class copMarkers {};
 		class copLights {};
 		class vehInvSearch {};

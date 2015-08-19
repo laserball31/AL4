@@ -18,7 +18,6 @@ switch (playerSide) do
 	    //GagKit Player
 		life_actions = [player addAction["<t color='#800000'>Gag Player</t>",life_fnc_gagAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && !(cursorTarget GVAR["gagged",FALSE]) && life_inv_gagkit > 0']];
-
 		//Remove Gag from player.
 		life_actions = [player addAction["<t color='#800000'>Remove Gag</t>",life_fnc_removeGagAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && (cursorTarget GVAR["gagged",FALSE])']];
@@ -28,7 +27,8 @@ switch (playerSide) do
         //GagKit Player
 		life_actions = [player addAction["<t color='#800000'>Gag Player</t>",life_fnc_gagAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && !(cursorTarget GVAR["gagged",FALSE]) && life_inv_gagkit > 0']];
-
+	   //Seize PlayerWeapons
+		life_actions = life_actions + [player addAction["Waffe beschlagnahmen",life_fnc_seizePlayerWeapon,cursorTarget,0,false,false,"",'!isNull cursorTarget && (player distance cursorTarget) < 6 && speed cursorTarget < 2 && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == civilian) && (cursorTarget getVariable "restrained")']];
         //Remove Gag from player.
 		life_actions = [player addAction["<t color='#800000'>Remove Gag</t>",life_fnc_removeGagAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && (cursorTarget GVAR["gagged",FALSE])']];
