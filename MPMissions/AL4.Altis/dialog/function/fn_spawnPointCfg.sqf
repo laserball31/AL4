@@ -34,6 +34,15 @@ switch (_side) do
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
+
+		if(license_civ_rebel && playerSide == civilian) then {
+		_ret = [
+					["reb_spawn_1","Rebel North","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["reb_spawn_2","Rebel South","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["reb_spawn_3","Rebel East","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				];
+		};
+		
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
