@@ -361,7 +361,7 @@ player createDiarySubject ["controls","Controls"];
 				
 				A complete list of all crimes and the appropriate punishments should be given to officers during training. If in doubt, or if you have not been trained, ask a higher ranking officer what to do.<br/><br/>
 				
-				The list is available at crime.sealteamsloth.com<br/><br/>
+				The list is available at crime.theweaponshop.ca<br/><br/>
 				"
 		]
 	];
